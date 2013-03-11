@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="license-report-demo" basedir="." default="main">
-	<taskdef name="license-report" classpath="${basedir}\lib\license-report-1.0.jar" classname="de.guerda.licensereport.LicenseReportTask" />
+
+	<taskdef name="license-report" classpath="${basedir}\lib\license-report-1.0.jar;${basedir}\lib\jdom-1.1.jar" classname="de.guerda.licensereport.LicenseReportTask" />
 
 	<target name="main">
-		<license-report>
+		<license-report toDir="build">
 			<fileset dir="${basedir}\lib">
 				<include name="**/*.jar" />
 			</fileset>
