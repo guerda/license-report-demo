@@ -3,7 +3,7 @@ license-report-demo
 
 A demo project for the [license-report Ant task](https://github.com/guerda/license-report/).
 This project shows, how the Ant task can be included in your project and how it is configured.
-A sample output can be found here: [Sample Report for license-report-demo](guerda.github.com/license-report/license-report-demo-results.html)
+A sample output can be found here: [Sample Report for license-report-demo](http://guerda.github.com/license-report/license-report-demo-results.html)
 
 Usage
 -----
