@@ -5,6 +5,8 @@ A demo project for the [license-report Ant task](https://github.com/guerda/licen
 This project shows, how the Ant task can be included in your project and how it is configured.
 A sample output can be found here: [Sample Report for license-report-demo](http://guerda.github.com/license-report/license-report-demo-results.html)
 
+[![Build Status](https://travis-ci.org/guerda/license-report-demo.svg?branch=master)](https://travis-ci.org/guerda/license-report-demo)
+
 Usage
 -----
 1. Grab the source
