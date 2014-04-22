@@ -16,4 +16,8 @@
 			</fileset>
 		</license-report>
 	</target>
+	
+	<target name="test"> 
+		<antcall target="create-license-report" />
+	</target>
 </project>
